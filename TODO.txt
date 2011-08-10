@@ -1,6 +1,9 @@
 Things To Do
+============
 
 Server Side
+-----------
+
 * Command to change account password when logged in
 * Serials are not updated when dns records are changed
 * Wildcard support for DNS zones
@@ -11,4 +14,6 @@ Server Side
 ** Automatic web help reader -support
 
 Client Side
+-----------
+
 * Support for scriptable client actions

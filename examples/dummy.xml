@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ccd type="request">
+	<command name="dummy" type="cli">
+		<option value="dummy" />
+		<option value="foo" />
+		<option value="--foo=bar" />
+	</command>
+</ccd>

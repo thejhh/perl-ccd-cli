@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ccd type="request" session_id="ID">
+	<command name="show client" type="cli">
+		<option value="show" />
+		<option value="client" />
+	</command>
+</ccd>

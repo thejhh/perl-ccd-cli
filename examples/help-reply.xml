@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ccd type="reply">
+	<command name="help"></commad>
+	<command name="login">
+		<option name="username" default="1" />
+		<option name="password" />
+	</command>
+	<command name="add webhost">
+		<option name="hostname" default="1" />
+		<option name="group" />
+		<option name="username" />
+		<option name="password" />
+	</commad>
+	<command name="add nameservice">
+		<option name="domain" default="1" />
+	</commad>
+	<command name="change dns">
+		<option name="domain" default="1" />
+		<option name="host" />
+		<option name="type" />
+		<option name="value" />
+	</commad>
+	<command name="register domain">
+		<option name="domain" default="1" />
+	</commad>
+	<command name="change contact">
+		<option name="email" />
+	</commad>
+</ccd>

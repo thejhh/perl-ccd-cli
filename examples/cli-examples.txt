@@ -1,0 +1,23 @@
+
+
+ccd login [--password=PASSWORD] [--username=USERNAME]
+
+ccd show
+
+ccd add webhost [--group=GROUP] [--username=USERNAME] [--password=PASSWORD] HOSTNAME
+
+ccd add nameservice DOMAIN
+
+ccd show dns DOMAIN
+
+ccd change dns HOST [--domain=DOMAIN] [--type=TYPE] [--value=VALUE]
+
+ccd delete dns HOST [--domain=DOMAIN] [--type=TYPE] [--value=VALUE]
+
+ccd register DOMAIN
+
+ccd show contacts
+
+ccd change contact CONTACT_ID [--address=ADDRESS] [--email=EMAIL] [--mobile=MOBILE] [--phone=PHONE]
+
+ccd link client contact_id=FOO [billing=yes|no] [tech=yes|no] [admin=yes|no]

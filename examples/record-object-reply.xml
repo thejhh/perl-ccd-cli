@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ccd type="reply">
+	<record type="object" name="client">
+		<record type="string" name="client_id" value="1234" />
+		<record type="string" name="lastname" value="Doe" />
+		<record type="string" name="firstnames" value="John" />
+	</record>
+</ccd>

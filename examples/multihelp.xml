@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ccd type="request">
+	<command name="help"></command>
+	<command name="help foo" type="cli">
+		<option value="help" />
+		<option value="foo" />
+		<option value="foo=bar" />
+	</command>
+	<command name="version"></command>
+</ccd>

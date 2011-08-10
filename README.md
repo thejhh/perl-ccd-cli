@@ -1,4 +1,9 @@
+
+Perl CLI client for CCD server
+==============================
+
 1. SUMMARY
+----------
 
 ccd-client is CLI client for Sendanor's Control Center Daemon.
 
@@ -15,23 +20,28 @@ User interface is the same no matter who is using the software.
 We plan to include web based client sometime in the future.
 
 3. INSTALLATION
+------------
 
 3.1. INSTALLATION REQUIREMENTS
+------------------------------
 
 Packages needed (Debian names):
 
   libxml-simple-perl libwww-perl perl-modules libcrypt-ssleay-perl
 
 3.2. INSTALLATION FROM SUBVERSION
+---------------------------------
 
 $ svn checkout https://svn.sendanor.fi/svn/sendanor/projects/ccd/client/trunk ccd-client
 $ cd ccd-client
 
 3.3. INSTALLATION WITH WGET
+---------------------------
 
 $ wget https://svn.sendanor.fi/svn/sendanor/projects/ccd/client/trunk/ccd-client.pl
 
 4. EXAMPLES
+-----------
 
 $ ./ccd-client.pl help
 USAGE: ccd COMMAND [NAME=VALUE ...]

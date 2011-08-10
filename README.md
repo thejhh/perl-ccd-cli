@@ -37,8 +37,8 @@ INSTALLATION FROM GIT
 	git clone http://github.com/jheusala/perl-ccd-cli.git perl-ccd-cli
 	cd perl-ccd-cli
 
-3.3. INSTALLATION WITH WGET
----------------------------
+INSTALLATION WITH WGET
+----------------------
 
 	wget https://raw.github.com/jheusala/perl-ccd-cli/master/ccd-client.pl -O ccd-client.pl
 

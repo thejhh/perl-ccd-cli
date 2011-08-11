@@ -24,7 +24,7 @@ binmode STDERR, ":utf8";
 	package Config;
 	
 	# Parse Configurations
-	our $CCD_URL = 'https://secure.sendanor.fi/~jheusala/ccd/ccd.fcgi';
+	our $CCD_URL = 'https://ccd.sendanor.com/ccd.fcgi';
 	our $BROWSER_TIMEOUT = 10;
 	#$CREDENTIAL_USERNAME='ccd';
 	#$CREDENTIAL_PASSWORD='';
